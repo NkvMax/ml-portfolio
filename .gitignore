@@ -1,0 +1,28 @@
+# untrack Jupyter checkpoints and temp files
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# untrack raw data/models files
+datasets/
+models/
+*.pth
+*.h5
+*.ckpt
+
+# images
+*.png
+*.jpg
+
+# configuration files IDE
+.env
+.idea/
+.vscode/
+.DS_Store
+
+# other
+Thumbs.db
+Desktop.ini
+*.log
+tmp/
+temp/
